@@ -28,7 +28,7 @@ NTL_CLIENT
  ******************************************************************************/
 ZZ modPow(ZZ base, ZZ exponent, ZZ mod)
 {
-  return PowerMod(base % mod, exponent, mod);
+  return PowerMod(base, exponent, mod);
 }
 /******************************************************************************
  * Find i such that a * i is congruent to 1 (mod m).
